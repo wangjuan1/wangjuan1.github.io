@@ -23,7 +23,7 @@
     <link rel="icon" href="/favicon.png">
   
   <link rel="stylesheet" href="/css/style.css">
-  <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+  <script src="//7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
 </head>
 
 <body>
@@ -34,12 +34,12 @@
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			
-			<img lazy-src="/images/mypicture.png" class="js-avatar">
+			<img src="/img/mypicture.png" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
 			
 		</a>
 
 		<hgroup>
-		  <h1 class="header-author"><a href="/">wang juan</a></h1>
+		  <h1 class="header-author"><a href="/sitemap">wang juan</a></h1>
 		</hgroup>
 
 		
@@ -79,7 +79,7 @@
 						<li>Links</li>
 						
 						
-						<li>About</li>
+						<li>Über</li>
 						
 					</ul>
 				</div>
@@ -137,7 +137,7 @@
 				
 				<section class="switch-part switch-part4">
 				
-					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
+					<div id="js-aboutme">天地不仁，以万物为刍狗；圣人不仁，以百姓为刍狗。天地之间，其犹橐籥乎？虚而不淈，动而愈出。多言数穷，不若守于中。</div>
 				</section>
 				
 			</div>
@@ -156,7 +156,7 @@
 		<header id="header" class="inner">
 			<div class="profilepic">
 			
-				<img lazy-src="/images/mypicture.png" class="js-avatar">
+				<img src="/img/mypicture.png" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
 			
 			</div>
 			<hgroup>
@@ -185,9 +185,14 @@
       <div class="body-wrap"><article id="post-胡王娟认数论文" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/12/14/胡王娟认数论文/" class="article-date">
+        
+            <a href="javascript: void(0)" id="toc-button">列表</a>
+            <div style="display:none"><a href="/2016/12/14/胡王娟认数论文/" class="article-date">
   	<time datetime="2016-12-14T14:23:32.000Z" itemprop="datePublished">2016-12-14</time>
-</a>
+</a></div>
+        
+
+        
     </div>
   
   <div class="article-inner">
@@ -279,7 +284,7 @@
 	var yiliaConfig = {
 		fancybox: true,
 		mathjax: true,
-		animate: true,
+		animate: false,
 		isHome: false,
 		isPost: true,
 		isArchive: false,
@@ -307,13 +312,14 @@ MathJax.Hub.Config({
 MathJax.Hub.Queue(function() {
     var all = MathJax.Hub.getAllJax(), i;
     for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
 });
 </script>
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
 
 
   </div>

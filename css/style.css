@@ -686,7 +686,7 @@ a {
 /*top: 20px;*/
   overlay-x: hidden;
   overflow-y: auto;
-  max-height: 200px;
+  max-height: 400px;
 }
 #header .switch-part2 {
   left: 100%;
@@ -972,7 +972,7 @@ a {
 .article-entry p code,
 .article-entry li code {
   padding: 1px 3px;
-  margin: 0 3px;
+  margin: 0 0px;
 /*background: #eee;*/
 /*border: 1px solid #ddd;*/
   font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
@@ -992,7 +992,7 @@ a {
 .article-entry blockquote {
   background: #2d2d2d;
   border-left: 5px solid #ccc;
-  padding: 15px 20px;
+  padding: 15px 15px;
   margin-top: 10px;
   border-left: 5px solid #999;
   background: #f6f6f6;
@@ -1020,13 +1020,13 @@ a {
 .article-entry ol {
   font-size: 14px;
   margin: 0px 0px;
+  padding-left: 35px;
 }
-.article-entry li {
-  margin-left: 30px;
+.article-entry ol > li {
+  margin-left: 20px;
 }
-.article-entry li ul,
-.article-entry li ol {
-  margin-left: 30px;
+.article-entry ol > li > ul > li {
+  margin-left: -20px;
 }
 .article-entry li ul li:before,
 .article-entry li ol li:before {
@@ -1517,6 +1517,8 @@ a {
   border: none;
   margin: 0;
   padding: 0;
+  padding-bottom: 5px;
+  overflow: hidden;
 }
 .article-entry .highlight table {
   margin: 0;
